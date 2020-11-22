@@ -19,6 +19,10 @@ public class Data {
     public int topup(int money){
         return this.totalMoney += money;
     }
+    
+    public int spending(int usingMoney){
+        return this.totalMoney -= usingMoney;
+    }
 
     @Override
     public String toString() {
