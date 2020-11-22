@@ -15,6 +15,10 @@ public class Data {
     public void setRemainingAmount(int money) {
         this.totalMoney = money;
     }
+    
+    public int topup(int money){
+        return this.totalMoney += money;
+    }
 
     @Override
     public String toString() {
