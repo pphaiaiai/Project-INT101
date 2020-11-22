@@ -1,9 +1,9 @@
 
 package etc;
 
-public class Account {
+public class Login {
     private String user ="user001";
-    private int password=001001;
+    private int password=12345678;
     
     public void Login(String CustumerUser,int CustumerPassword){
     this.user=CustumerUser;
